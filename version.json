@@ -1,0 +1,21 @@
+{
+  "updatedAt": "2026-02-28",
+  "apps": {
+    "health-dog": {
+      "android": {
+        "minimumVersion": "1.0.0",
+        "latestVersion": "0.2.2",
+        "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.healthdog.app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.healthdog.app"
+      }
+    },
+    "comment-filter": {
+      "android": {
+        "minimumVersion": "1.0.0",
+        "latestVersion": "1.2.2",
+        "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.giholim.commentfilter",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.giholim.commentfilter"
+      }
+    }
+  }
+}

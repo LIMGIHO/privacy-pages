@@ -1,0 +1,12 @@
+{
+  "app": "comment-filter",
+  "platform": "android",
+  "minimumVersion": "1.2.2",
+  "latestVersion": "1.2.2",
+  "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.giholim.commentfilter",
+  "storeUrl": "https://play.google.com/store/apps/details?id=com.giholim.commentfilter",
+  "title": "업데이트 안내",
+  "optionalMessage": "새 버전이 있어요. 업데이트하면 더 안정적으로 사용할 수 있어요.",
+  "forceMessage": "원활한 사용을 위해 최신 버전으로 업데이트해 주세요.",
+  "updatedAt": "2026-02-28"
+}
