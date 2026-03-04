@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthDog Version Endpoint</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #0f1520;
+        color: #eef4ff;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      }
+      h1 { font-size: 20px; margin: 0 0 10px; }
+      p { opacity: 0.9; }
+      pre {
+        margin-top: 16px;
+        background: #161f2d;
+        border: 1px solid #304057;
+        border-radius: 10px;
+        padding: 14px;
+        overflow: auto;
+        white-space: pre-wrap;
+      }
+      a { color: #89c7ff; }
+    </style>
+  </head>
+  <body>
+    <h1>/health-dog/version</h1>
+    <p>앱에서는 <a href="../version.json">../version.json</a>을 호출하세요.</p>
+    <pre id="out">loading...</pre>
+    <script>
+      fetch('../version.json', { cache: 'no-store' })
+        .then((res) => res.json())
+        .then((json) => {
+          document.getElementById('out').textContent = JSON.stringify(json, null, 2);
+        })
+        .catch((err) => {
+          document.getElementById('out').textContent = String(err);
+        });
+    </script>
+  </body>
+</html>

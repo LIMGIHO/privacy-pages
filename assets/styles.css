@@ -1,0 +1,89 @@
+:root {
+  --bg: #f7f6f2;
+  --panel: #ffffff;
+  --text: #1e2227;
+  --muted: #5a646f;
+  --line: #d5dce3;
+  --accent: #146c94;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Noto Sans", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 10% -10%, #dceef8 0, transparent 32%),
+    radial-gradient(circle at 90% 0, #f9e7d8 0, transparent 28%),
+    var(--bg);
+}
+
+main {
+  width: min(920px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+p,
+li {
+  line-height: 1.6;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card,
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 4px 16px rgba(35, 51, 66, 0.06);
+}
+
+.card a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+footer {
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.back {
+  margin-bottom: 1rem;
+}
+
+.back a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
