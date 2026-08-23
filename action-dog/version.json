@@ -1,0 +1,12 @@
+{
+  "app": "action-dog",
+  "platform": "android",
+  "minimumVersion": "1.1.0",
+  "latestVersion": "1.1.0",
+  "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.giholim.actiondog",
+  "storeUrl": "https://play.google.com/store/apps/details?id=com.giholim.actiondog",
+  "title": "업데이트 안내",
+  "optionalMessage": "새 버전이 있습니다. 업데이트 후 더 안정적으로 사용할 수 있어요.",
+  "forceMessage": "계속 사용하려면 최신 버전으로 업데이트해 주세요.",
+  "updatedAt": "2026-07-27"
+}

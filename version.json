@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-08-23",
+  "apps": {
+    "action-dog": {
+      "android": {
+        "minimumVersion": "0.1.0",
+        "latestVersion": "0.1.0",
+        "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.giholim.actiondog",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.giholim.actiondog"
+      }
+    },
+    "health-dog": {
+      "android": {
+        "minimumVersion": "1.5.1",
+        "latestVersion": "1.5.1",
+        "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.healthdog.app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.healthdog.app"
+      }
+    },
+    "comment-filter": {
+      "android": {
+        "minimumVersion": "1.2.5",
+        "latestVersion": "1.2.5",
+        "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.giholim.commentfilter",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.giholim.commentfilter"
+      }
+    }
+  }
+}
